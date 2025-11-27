@@ -1,0 +1,24 @@
+{
+  "name": "metadata-tool",
+  "version": "0.0.1",
+  "createdBy": "APS",
+  "identifier": "ui_extensibility_identifier122w",
+  "description": "Creates metadata based on file and it's content.",
+  "apiBaseUrl": "https://api-ext.aps-proj.click",
+  "origin": "https://ext.aps-proj.click",
+  "publicKey": "pk-value",
+  "scopes": [
+    "EditMetadata",
+    "DeleteMetadata"
+  ],
+  "slots": [
+    {
+      "id": "documents.grid.actions",
+      "path": "/edit-document-button"
+    },
+    {
+      "id": "router.routes",
+      "path": "/documents/:id"
+    }
+  ]
+}
